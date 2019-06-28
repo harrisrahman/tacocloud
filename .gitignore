@@ -1,0 +1,46 @@
+# See http:/taco-ui//taco-ui/help.github.com/taco-ui/ignore-files/taco-ui/ for more about ignoring files.
+
+# compiled output
+/taco-ui/dist
+/taco-ui/tmp
+/taco-ui/out-tsc
+# Only exists if Bazel was run
+/taco-ui/bazel-out
+
+# dependencies
+/taco-ui/node_modules
+
+# profiling files
+chrome-profiler-events.json
+speed-measure-plugin.json
+
+# IDEs and editors
+/taco-ui/.idea
+.project
+.classpath
+.c9/taco-ui/
+*.launch
+.settings/taco-ui/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/taco-ui/*
+!.vscode/taco-ui/settings.json
+!.vscode/taco-ui/tasks.json
+!.vscode/taco-ui/launch.json
+!.vscode/taco-ui/extensions.json
+.history/taco-ui/*
+
+# misc
+/taco-ui/.sass-cache
+/taco-ui/connect.lock
+/taco-ui/coverage
+/taco-ui/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/taco-ui/typings
+
+# System Files
+.DS_Store
+Thumbs.db

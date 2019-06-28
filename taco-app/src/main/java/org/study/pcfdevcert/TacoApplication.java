@@ -1,4 +1,4 @@
-package org.study.pcfdevcert.app;
+package org.study.pcfdevcert;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
