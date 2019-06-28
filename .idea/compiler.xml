@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="taco-ui" />
+        <module name="taco-app" />
+        <module name="taco-repository" />
+        <module name="taco-rest" />
+        <module name="taco-services" />
+        <module name="taco-domain" />
+        <module name="taco-config" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="taco-app" options="-parameters" />
+      <module name="taco-config" options="-parameters" />
+      <module name="taco-domain" options="-parameters" />
+      <module name="taco-repository" options="-parameters" />
+      <module name="taco-rest" options="-parameters" />
+      <module name="taco-services" options="-parameters" />
+      <module name="taco-ui" options="-parameters" />
+    </option>
+  </component>
+</project>

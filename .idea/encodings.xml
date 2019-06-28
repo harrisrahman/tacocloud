@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taco-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taco-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taco-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taco-repository" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taco-rest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taco-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taco-services" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/taco-ui" charset="UTF-8" />
+  </component>
+</project>
