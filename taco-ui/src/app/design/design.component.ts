@@ -4,32 +4,32 @@ import { Router } from '@angular/router/';
 import { CartService } from '../cart/cart-service';
 
 @Component({
-  selector: 'taco-design',
-  templateUrl: 'design.component.html',
-  styleUrls: ['./design.component.css']
+selector: 'taco-design',
+templateUrl: 'design.component.html',
+styleUrls: ['./design.component.css']
 })
 
 @Injectable()
 export class DesignComponent implements OnInit {
 
-  model = {
-    name: '',
-    ingredients: []
-  };
+model = {
+name: '',
+ingredients: []
+};
 
-  allIngredients: any;
-  wraps = [];
-  proteins = [];
-  veggies = [];
-  cheeses = [];
-  sauces = [];
+allIngredients: any;
+wraps = [];
+proteins = [];
+veggies = [];
+cheeses = [];
+sauces = [];
 
-  constructor(private httpClient: HttpClient, private router: Router, private cart: CartService) {
+constructor(private httpClient: HttpClient, private router: Router, private cart: CartService) {
   }
 
   // tag::ngOnInit[]
   ngOnInit() {
-    this.httpClient.get('http://localhost:8080/ingredientsx')
+    this.httpClient.get('http://localhost:8080/design/ingredients')
         .subscribe(data => {
           this.allIngredients = data;
           this.wraps = this.allIngredients.filter(w => w.type === 'WRAP');
@@ -60,5 +60,5 @@ export class DesignComponent implements OnInit {
     this.router.navigate(['/cart']);
   }
   // end::onSubmit[]
-
 }
+

@@ -9,12 +9,11 @@
     <version>1.0</version>
     <modules>
         <module>taco-app</module>
-        <module>taco-rest</module>
         <module>taco-config</module>
         <module>taco-domain</module>
         <module>taco-repository</module>
         <module>taco-services</module>
-        <module>taco-ui</module>
+        <module>taco-api</module>
     </modules>
 
 

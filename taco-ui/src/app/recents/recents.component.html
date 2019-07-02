@@ -1,0 +1,16 @@
+<p>Here are the recent Tac creations .. to inspire !!!!!</p>
+
+
+<div class="ingredientsblock" style="text-align: center; width: 100%;">
+  <span *ngFor="let taco of recentTacos">
+    <group-box title="{{taco.name}}">
+          <span *ngFor="let ingredient of taco.ingredients">
+            <ul>
+              <li>{{ ingredient.name }}</li>
+            </ul>
+          </span>
+          <h4>{{taco.createdAt}}</h4>
+    </group-box>
+  </span>
+</div>
+

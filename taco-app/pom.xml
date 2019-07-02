@@ -35,6 +35,16 @@
             <artifactId>taco-domain</artifactId>
             <version>1.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.study.pcfdevcert.tacocloud</groupId>
+            <artifactId>taco-config</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.study.pcfdevcert.tacocloud</groupId>
+            <artifactId>taco-api</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
     <build>
