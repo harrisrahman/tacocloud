@@ -55,7 +55,9 @@ constructor(private httpClient: HttpClient, private router: Router, private cart
         'http://localhost:8080/design',
         this.model, {
             headers: new HttpHeaders().set('Content-type', 'application/json'),
-        }).subscribe(taco => this.cart.addToCart(taco));
+        }).subscribe(taco => {
+          return this.cart.addToCart(taco);
+        });
 
     this.router.navigate(['/cart']);
   }

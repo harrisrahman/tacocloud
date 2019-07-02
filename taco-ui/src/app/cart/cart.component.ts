@@ -1,6 +1,7 @@
 import { Component, OnInit, Injectable } from '@angular/core';
 import { CartService } from './cart-service';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Router } from '@angular/router'
 
 @Component({
 selector: 'taco-cart',
@@ -12,17 +13,17 @@ styleUrls: ['./cart.component.css']
 export class CartComponent implements OnInit {
 
 model = {
-deliveryName: '',
-deliveryStreet: '',
-deliveryState: '',
-deliveryZip: '',
+name: '',
+street: '',
+state: '',
+zip: '',
 ccNumber: '',
-ccExpiration: '',
+ccExpiry: '',
 ccCVV: '',
 tacos: []
 };
 
-constructor(private cart: CartService, private httpClient: HttpClient) {
+constructor(private cart: CartService, private router: Router,private httpClient: HttpClient) {
     this.cart = cart;
   }
 
@@ -46,8 +47,12 @@ constructor(private cart: CartService, private httpClient: HttpClient) {
         'http://localhost:8080/orders',
         this.model, {
             headers: new HttpHeaders().set('Content-type', 'application/json')
-                    .set('Accept', 'application/json'),
-        }).subscribe(r => this.cart.emptyCart());
+                    // .set('Accept', 'application/json'),
+        }).subscribe(r => {
+          return this.cart.emptyCart();
+        });
+
+        this.router.navigate(['/recents']);
 
     // TODO: Do something after this...navigate to a thank you page or something
   }

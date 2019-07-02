@@ -2,6 +2,7 @@ package org.study.pcfdevcert.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -35,16 +36,23 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
-                .antMatchers("/design", "/orders")
-                .access("hasRole('ROLE_USER')")
-                .antMatchers("/","/**")
-                .access("permitAll")
+                .antMatchers(HttpMethod.OPTIONS).permitAll()
+                .antMatchers("/design", "/orders").permitAll()
+//                .access("hasRole('ROLE_USER')")
+                .antMatchers("/", "/**").access("permitAll")
+                .antMatchers(HttpMethod.PATCH).permitAll()
+
                 .and()
-                .formLogin()
-                .loginPage("/login")
-                .defaultSuccessUrl("/design", true)
+                    .csrf()
+                    .ignoringAntMatchers("/design","/orders")
+
                 .and()
-                .logout()
-                .logoutSuccessUrl("/");
+                    .formLogin()
+                    .loginPage("/login")
+                    .defaultSuccessUrl("/design", true)
+
+                .and()
+                    .logout()
+                    .logoutSuccessUrl("/");
     }
 }

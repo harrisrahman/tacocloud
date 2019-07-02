@@ -49,4 +49,10 @@ public class DesignTacoController {
     public Iterable<Ingredient> getIngredients(){
         return ingRepo.findAll();
     }
+
+    @PostMapping(consumes = "application/json")
+    @ResponseStatus(HttpStatus.CREATED)
+    public Taco postTaco(@RequestBody Taco taco){
+        return repository.save(taco);
+    }
 }
