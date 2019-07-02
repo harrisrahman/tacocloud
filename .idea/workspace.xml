@@ -2,82 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab01110d-0d33-473a-8d27-bee5c8db6211" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/api/DesignTacoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/controller/DesignTacoWebController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/controller/HomeWebController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/controller/OrderWebController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/controller/RegistrationWebController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-api/taco-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-app/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-app/target/classes/data_ignore.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-app/target/classes/schema_ignore.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-app/target/classes/static/images/TacoCloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-app/target/classes/static/images/TacoCloud1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-app/target/classes/templates/design.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-app/target/classes/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-app/target/classes/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-app/target/classes/templates/orderForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-app/target/classes/templates/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-config/target/classes/org/study/pcfdevcert/config/SecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-config/target/classes/org/study/pcfdevcert/config/TacoViewConfigurer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-domain/target/classes/org/study/pcfdevcert/domain/Ingredient$Type.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-domain/target/classes/org/study/pcfdevcert/domain/Ingredient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-domain/target/classes/org/study/pcfdevcert/domain/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-domain/target/classes/org/study/pcfdevcert/domain/RegistrationForm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-domain/target/classes/org/study/pcfdevcert/domain/Taco.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-domain/target/classes/org/study/pcfdevcert/domain/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-domain/target/classes/tacos/domain/Design.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-repository/target/classes/org/study/pcfdevcert/repository/IngredientRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-repository/target/classes/org/study/pcfdevcert/repository/OrderRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-repository/target/classes/org/study/pcfdevcert/repository/TacoRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-repository/target/classes/org/study/pcfdevcert/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-services/target/classes/org/study/pcfdevcert/services/UserDetailsServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/src/app/api/ApiService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/src/app/big-button/bigbutton.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/src/app/big-button/bigbutton.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/src/app/big-button/bigbutton.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/src/app/cart/cart-item.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/src/app/cart/cart-service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/src/app/cloud-title/cloudtitle.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/src/app/cloud-title/cloudtitle.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/src/app/cloud-title/cloudtitle.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/src/app/group-box/groupbox.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/src/app/group-box/groupbox.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/src/app/group-box/groupbox.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/src/app/home/home.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/src/app/home/home.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/src/app/home/home.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/src/app/recents/NonWrapsPipe.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/src/app/recents/RecentTacosService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/src/app/recents/WrapsPipe.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/src/assets/Cloud_sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/src/assets/taco-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taco-ui/taco-ui.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taco-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-app/src/main/java/org/study/pcfdevcert/controller/DesignTacoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-app/src/main/java/org/study/pcfdevcert/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-app/src/main/java/org/study/pcfdevcert/controller/OrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-app/src/main/java/org/study/pcfdevcert/controller/RegistrationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taco-app/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-repository/src/main/java/org/study/pcfdevcert/repository/TacoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-repository/src/main/java/org/study/pcfdevcert/repository/TacoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-rest/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-rest/taco-rest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/taco-ui/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/taco-ui/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-ui/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/taco-ui/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/taco-ui/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-ui/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/taco-ui/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/taco-ui/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-ui/src/app/design/design.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/taco-ui/src/app/design/design.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taco-ui/src/app/design/design.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/taco-ui/src/app/design/design.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-api/taco-api.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/taco-domain/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,33 +26,80 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taco-ui/src/app/recents/recents.component.html">
+        <entry file="file://$PROJECT_DIR$/taco-config/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="576">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taco-ui/src/app/design/design.component.ts">
+        <entry file="file://$PROJECT_DIR$/taco-domain/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="438">
+              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taco-ui/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taco-ui/src/app/design/design.component.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taco-ui/src/app/design/design.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/taco-app/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/taco-ui/src/app/design/design.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="208">
+              <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taco-repository/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taco-services/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -184,6 +159,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,98 +168,10 @@
               <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
-              <item name="taco-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
-              <item name="taco-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
-              <item name="taco-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
-              <item name="taco-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
-              <item name="taco-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
-              <item name="taco-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
-              <item name="taco-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
-              <item name="taco-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
-              <item name="taco-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pcfdevcert" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
-              <item name="taco-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
-              <item name="taco-ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
-              <item name="taco-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
-              <item name="taco-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,9 +230,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1926" height="1042" extended-state="6" />
+    <frame x="-4" y="-4" width="1928" height="1034" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2534685" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19753747" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -359,7 +248,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.43468717" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.46103182" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21259843" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005353" side_tool="true" weight="0.49734887" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49732333" weight="0.3402854" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -371,6 +260,9 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -388,7 +280,7 @@
     <entry file="file://$PROJECT_DIR$/taco-ui/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -411,11 +303,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/taco-ui/src/app/design/design.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/taco-ui/src/app/cart/cart.component.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -574,22 +462,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/taco-repository/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="648">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/taco-domain/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="20" selection-start-line="20" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="438">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="432">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -654,11 +542,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/taco-ui/src/app/design/design.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="264">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -685,8 +570,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/taco-ui/src/app/design/design.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="208">
+          <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
         </state>
       </provider>
     </entry>
