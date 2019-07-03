@@ -3,19 +3,21 @@ package org.study.pcfdevcert.api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
-import org.springframework.hateoas.Link;
-import org.springframework.hateoas.Resource;
 import org.springframework.hateoas.Resources;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.study.pcfdevcert.domain.Ingredient;
+import org.study.pcfdevcert.resourceassembler.TacoResourceAsembler;
 import org.study.pcfdevcert.domain.Taco;
 import org.study.pcfdevcert.repository.IngredientRepository;
 import org.study.pcfdevcert.repository.TacoRepository;
+import org.study.pcfdevcert.resource.TacoResource;
 
 import java.util.List;
 import java.util.Optional;
+
+import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
+import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
 
 @RestController
 @RequestMapping(path = "/design",produces = "application/json")
@@ -23,7 +25,6 @@ import java.util.Optional;
 public class DesignTacoController {
 
     private TacoRepository repository;
-    private IngredientRepository ingRepo;
 
 //    @Autowired
 //    EntityLinks entityLinks;
@@ -31,15 +32,16 @@ public class DesignTacoController {
     @Autowired
     public DesignTacoController(TacoRepository repository, IngredientRepository ingRepo){
         this.repository = repository;
-        this.ingRepo = ingRepo;
     }
 
     @GetMapping(path = "/recent")
-    public Resources<Resource<Taco>> recentTacos(){
+    public Resources<TacoResource> recentTacos(){
         PageRequest page = PageRequest.of(0,12, Sort.by("createdAt").descending());
         List<Taco> recentTacos =  repository.findAll(page).getContent();
-        Resources<Resource<Taco>> recentResources = Resources.wrap(recentTacos);
-        recentResources.add(new Link("http://localhost:8080/design/recent","recents"));
+        List<TacoResource> tacoResources= new TacoResourceAsembler().toResources(recentTacos);
+        Resources<TacoResource> recentResources = new Resources<>(tacoResources);
+        recentResources.add(linkTo(methodOn(DesignTacoController.class).recentTacos())
+                                .withRel("recents"));
         return recentResources;
     }
 
@@ -50,11 +52,6 @@ public class DesignTacoController {
             return  new ResponseEntity<>(optionalTaco.get(), HttpStatus.OK);
         }
         return new ResponseEntity<>(null,HttpStatus.NOT_FOUND);
-    }
-
-    @GetMapping(path = "/ingredients")
-    public Iterable<Ingredient> getIngredients(){
-        return ingRepo.findAll();
     }
 
     @PostMapping(consumes = "application/json")
