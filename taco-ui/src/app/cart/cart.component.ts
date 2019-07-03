@@ -47,7 +47,7 @@ constructor(private cart: CartService, private router: Router,private httpClient
         'http://localhost:8080/orders',
         this.model, {
             headers: new HttpHeaders().set('Content-type', 'application/json')
-                    // .set('Accept', 'application/json'),
+                    .set('Accept', 'application/json'),
         }).subscribe(r => {
           return this.cart.emptyCart();
         });
