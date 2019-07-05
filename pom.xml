@@ -14,6 +14,7 @@
         <module>taco-repository</module>
         <module>taco-services</module>
         <module>taco-api</module>
+        <module>taco-test</module>
     </modules>
 
 
