@@ -14,7 +14,11 @@
         <module>taco-repository</module>
         <module>taco-services</module>
         <module>taco-api</module>
+<<<<<<< HEAD
         <module>taco-messaging</module>
+=======
+        <module>taco-test</module>
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
     </modules>
 
 

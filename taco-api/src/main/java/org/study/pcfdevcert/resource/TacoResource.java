@@ -2,12 +2,14 @@ package org.study.pcfdevcert.resource;
 
 import lombok.Getter;
 import org.springframework.hateoas.ResourceSupport;
+import org.springframework.hateoas.core.Relation;
 import org.study.pcfdevcert.domain.Taco;
 import org.study.pcfdevcert.resourceassembler.IngredientResourceAssembler;
 
 import java.util.Date;
 import java.util.List;
 
+@Relation(value = "taco",collectionRelation = "tacos")
 public class TacoResource extends ResourceSupport {
 
     @Getter

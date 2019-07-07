@@ -7,6 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
+=======
+        <module name="taco-services" />
+        <module name="taco-test" />
+        <module name="taco-app" />
+        <module name="taco-repository" />
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
         <module name="taco-api" />
         <module name="taco-app" />
         <module name="taco-config" />
@@ -30,6 +37,7 @@
       <module name="taco-repository" options="-parameters" />
       <module name="taco-rest" options="-parameters" />
       <module name="taco-services" options="-parameters" />
+      <module name="taco-test" options="-parameters" />
       <module name="taco-ui" options="-parameters" />
     </option>
   </component>

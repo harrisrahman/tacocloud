@@ -3,10 +3,13 @@ package org.study.pcfdevcert.api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.study.pcfdevcert.domain.Order;
 import org.study.pcfdevcert.kafka.OrderMessageProducerServiceImpl;
 import org.study.pcfdevcert.repository.OrderRepository;
+
+import java.util.List;
 
 @RestController
 @RequestMapping(path = "/orders", produces = "application/json")
@@ -36,5 +39,10 @@ public class OrderController {
             orderRepository.deleteById(id);
         } catch (EmptyResultDataAccessException ex) {
         }
+    }
+
+    @GetMapping()
+    public ResponseEntity<Iterable<Order>> getOrders(){
+        return new ResponseEntity<Iterable<Order>>(orderRepository.findAll(),HttpStatus.OK);
     }
 }

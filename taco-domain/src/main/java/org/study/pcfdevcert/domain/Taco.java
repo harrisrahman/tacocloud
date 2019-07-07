@@ -2,6 +2,7 @@ package org.study.pcfdevcert.domain;
 
 
 import lombok.Data;
+import org.springframework.data.rest.core.annotation.RestResource;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
@@ -11,6 +12,7 @@ import java.util.List;
 
 @Data
 @Entity
+@RestResource(rel="tacos",path="taocs")
 public class Taco {
     @NotNull
     @Size(min = 5, message = "At least 5 characters")

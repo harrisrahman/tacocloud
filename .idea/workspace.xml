@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab01110d-0d33-473a-8d27-bee5c8db6211" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/taco-app/src/main/resources/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/taco-messaging/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/taco-messaging/src/main/java/org/study/pcfdevcert/OrderMessagingService.java" afterDir="false" />
@@ -17,6 +18,23 @@
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taco-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taco-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/api/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/api/OrderController.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/taco-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taco-test/src/test/java/DesignControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taco-test/src/test/java/OrderControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taco-test/taco-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/api/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/api/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/resource/TacoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/resource/TacoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taco-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/taco-app/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/taco-domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taco-domain/src/main/java/org/study/pcfdevcert/domain/Taco.java" beforeDir="false" afterPath="$PROJECT_DIR$/taco-domain/src/main/java/org/study/pcfdevcert/domain/Taco.java" afterDir="false" />
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
     </list>
     <ignored path="$PROJECT_DIR$/taco-domain/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,10 +44,14 @@
     <ignored path="$PROJECT_DIR$/taco-services/target/" />
     <ignored path="$PROJECT_DIR$/taco-rest/target/" />
     <ignored path="$PROJECT_DIR$/taco-api/target/" />
+<<<<<<< HEAD
     <ignored path="$PROJECT_DIR$/taco-jms/target/" />
     <ignored path="$PROJECT_DIR$/taco-jms-receive/target/" />
     <ignored path="$PROJECT_DIR$/taco-jms-send/target/" />
     <ignored path="$PROJECT_DIR$/taco-messaging/target/" />
+=======
+    <ignored path="$PROJECT_DIR$/taco-test/target/" />
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +65,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/taco-messaging/src/main/java/org/study/pcfdevcert/jms/OrderMessagingSend.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
@@ -52,11 +75,27 @@
                 <element signature="e#800#801#0" expanded="true" />
                 <element signature="e#846#847#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/taco-app/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taco-app/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/taco-messaging/src/main/java/org/study/pcfdevcert/jms/OrderMessageReceive.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -64,21 +103,47 @@
               <folding>
                 <element signature="e#834#835#0" expanded="true" />
                 <element signature="e#883#884#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/api/DesignTacoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="41" column="30" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1832#1833#0" expanded="true" />
+                <element signature="e#1864#1865#0" expanded="true" />
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/taco-app/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="15" column="36" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="36" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/api/IngredientController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+              </folding>
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/taco-app/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-132">
@@ -101,6 +166,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
               <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+=======
+        <entry file="file://$PROJECT_DIR$/taco-test/src/test/java/OrderControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,20 +182,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/api/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="308">
               <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+=======
+            <state relative-caret-position="316">
+              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/taco-messaging/src/main/java/org/study/pcfdevcert/kafka/OrderMessageConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
               <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/taco-test/src/test/java/DesignControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,6 +219,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/taco-messaging/src/main/java/org/study/pcfdevcert/jms/MessagingConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="227">
@@ -140,6 +227,12 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/taco-domain/src/main/java/org/study/pcfdevcert/domain/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
             </state>
           </provider>
         </entry>
@@ -147,8 +240,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/taco-messaging/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="330">
               <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+=======
+            <state relative-caret-position="264">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
             </state>
           </provider>
         </entry>
@@ -178,7 +276,11 @@
         <option value="$PROJECT_DIR$/taco-ui/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/taco-ui/src/app/recents/recents.component.ts" />
         <option value="$PROJECT_DIR$/taco-app/src/main/java/org/study/pcfdevcert/controller/RegistrationController.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/taco-app/pom.xml" />
+=======
+        <option value="$PROJECT_DIR$/pom.xml" />
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
         <option value="$PROJECT_DIR$/taco-app/src/main/java/org/study/pcfdevcert/controller/DesignTacoControllerRest.java" />
         <option value="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/DesignTacoControllerNew.java" />
         <option value="$PROJECT_DIR$/taco-api/src/main/java/pcfdevcert/sample.java" />
@@ -188,6 +290,10 @@
         <option value="$PROJECT_DIR$/taco-ui/src/app/design/design.component.ts" />
         <option value="$PROJECT_DIR$/taco-config/src/main/java/org/study/pcfdevcert/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/controller/OrderWebController.java" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/taco-api/pom.xml" />
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
         <option value="$PROJECT_DIR$/taco-domain/src/main/java/org/study/pcfdevcert/domain/resource/TacoResource.java" />
         <option value="$PROJECT_DIR$/taco-domain/pom.xml" />
         <option value="$PROJECT_DIR$/taco-domain/src/main/java/org/study/pcfdevcert/resource/TacoResourceAssembler.java" />
@@ -196,10 +302,10 @@
         <option value="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/ResourceAssembler/IngredientResourceAssembler.java" />
         <option value="$PROJECT_DIR$/taco-domain/src/main/java/org/study/pcfdevcert/resource/TacoResource.java" />
         <option value="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/resource/resourceassembler/IngredientResource.java" />
-        <option value="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/resource/TacoResource.java" />
         <option value="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/api/DesignTacoController.java" />
         <option value="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/resourceassembler/IngredientResourceAssembler.java" />
         <option value="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/api/IngredientController.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/taco-jms/pom.xml" />
         <option value="$PROJECT_DIR$/taco-jms/src/main/java/org/study/pcfdevcert/jms/OrderMessagingService.java" />
         <option value="$PROJECT_DIR$/taco-jms/src/main/java/org/study/pcfdevcert/jms/JmsOrderMessagingService.java" />
@@ -225,13 +331,30 @@
         <option value="$PROJECT_DIR$/taco-messaging/src/main/java/org/study/pcfdevcert/kafka/OrderMessageConsumer.java" />
         <option value="$PROJECT_DIR$/taco-messaging/src/main/java/org/study/pcfdevcert/kafka/OrderMessageProducerServiceImpl.java" />
         <option value="$PROJECT_DIR$/taco-messaging/src/main/java/org/study/pcfdevcert/jms/OrderMessageReceive.java" />
+=======
+        <option value="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/resource/TacoResource.java" />
+        <option value="$PROJECT_DIR$/taco-test/pom.xml" />
+        <option value="$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/api/OrderController.java" />
+        <option value="$PROJECT_DIR$/taco-app/pom.xml" />
+        <option value="$PROJECT_DIR$/taco-app/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/taco-test/src/test/java/OrderControllerTest.java" />
+        <option value="$PROJECT_DIR$/taco-domain/src/main/java/org/study/pcfdevcert/domain/Taco.java" />
+        <option value="$PROJECT_DIR$/taco-test/src/test/java/DesignControllerTest.java" />
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="-3" />
     <option name="width" value="1926" />
     <option name="height" value="1042" />
+=======
+    <option name="x" value="-4" />
+    <option name="y" value="-1084" />
+    <option name="width" value="1928" />
+    <option name="height" value="1088" />
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -295,38 +418,46 @@
             <path>
               <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
-              <item name="taco-api" type="462c0819:PsiDirectoryNode" />
+              <item name="taco-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
+              <item name="taco-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
+              <item name="taco-app" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+            </path>
+            <path>
+              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
+              <item name="taco-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
+              <item name="taco-app" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
+              <item name="taco-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pcfdevcert" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
-              <item name="taco-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
-              <item name="taco-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
-              <item name="taco-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
-              <item name="taco-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
             </path>
             <path>
               <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
@@ -391,6 +522,38 @@
               <item name="pcfdevcert" type="462c0819:PsiDirectoryNode" />
               <item name="kafka" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
+              <item name="taco-domain" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
+              <item name="taco-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
+              <item name="taco-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
+              <item name="taco-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tacocloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tacocloud" type="462c0819:PsiDirectoryNode" />
+              <item name="taco-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -404,10 +567,17 @@
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/taco-domain/src/main/java/org/study/pcfdevcert" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-in-action-5-samples/ch06" />
+<<<<<<< HEAD
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+=======
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -445,7 +615,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DesignControllerTest.getRecentTacos">
     <configuration name="tacocloud" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.study.pcfdevcert.TacoApplication" />
       <module name="taco-app" />
@@ -453,6 +623,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DesignControllerTest.getRecentTacos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taco-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DesignControllerTest" />
+      <option name="METHOD_NAME" value="getRecentTacos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderControllerTest.getAllOrdersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taco-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrderControllerTest" />
+      <option name="METHOD_NAME" value="getAllOrdersTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderControllerTest.whenCallRecents_thenReturnRecentTacos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taco-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrderControllerTest" />
+      <option name="METHOD_NAME" value="whenCallRecents_thenReturnRecentTacos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DesignControllerTest.getRecentTacos" />
+        <item itemvalue="JUnit.OrderControllerTest.getAllOrdersTest" />
+        <item itemvalue="JUnit.OrderControllerTest.whenCallRecents_thenReturnRecentTacos" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -464,8 +671,44 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="DesignControllerTest_whenCallRecents_thenReturnRecentTacos - 2019.07.04 at 15h 47m 09s.xml">
+      <configuration name="DesignControllerTest.whenCallRecents_thenReturnRecentTacos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DesignControllerTest_whenCallRecents_thenReturnRecentTacos - 2019.07.04 at 15h 57m 56s.xml">
+      <configuration name="DesignControllerTest.whenCallRecents_thenReturnRecentTacos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DesignControllerTest_whenCallRecents_thenReturnRecentTacos - 2019.07.04 at 16h 05m 33s.xml">
+      <configuration name="DesignControllerTest.whenCallRecents_thenReturnRecentTacos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DesignControllerTest_whenCallRecents_thenReturnRecentTacos - 2019.07.04 at 16h 08m 57s.xml">
+      <configuration name="DesignControllerTest.whenCallRecents_thenReturnRecentTacos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DesignControllerTest_whenCallRecents_thenReturnRecentTacos - 2019.07.04 at 16h 09m 17s.xml">
+      <configuration name="DesignControllerTest.whenCallRecents_thenReturnRecentTacos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DesignControllerTest_whenCallRecents_thenReturnRecentTacos - 2019.07.04 at 16h 10m 46s.xml">
+      <configuration name="DesignControllerTest.whenCallRecents_thenReturnRecentTacos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DesignControllerTest_whenCallRecents_thenReturnRecentTacos - 2019.07.04 at 16h 15m 10s.xml">
+      <configuration name="DesignControllerTest.whenCallRecents_thenReturnRecentTacos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderControllerTest_getAllOrdersTest - 2019.07.04 at 16h 34m 22s.xml">
+      <configuration name="OrderControllerTest.getAllOrdersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DesignControllerTest_getRecentTacos - 2019.07.04 at 17h 11m 54s.xml">
+      <configuration name="DesignControllerTest.getRecentTacos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DesignControllerTest_getRecentTacos - 2019.07.04 at 17h 13m 54s.xml">
+      <configuration name="DesignControllerTest.getRecentTacos" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-3" y="0" width="1926" height="1042" extended-state="6" />
+=======
+    <frame x="-4" y="-1084" width="1928" height="1088" extended-state="6" />
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22198506" />
@@ -476,15 +719,25 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930845" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946466" visible="true" weight="0.30954996" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.61252654" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49946466" visible="true" weight="0.42675158" />
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3043478" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.41712403" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.44798303" />
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005353" side_tool="true" weight="0.49734887" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49732333" weight="0.21953897" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -569,7 +822,11 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/api/OrderController.java</url>
+<<<<<<< HEAD
           <line>28</line>
+=======
+          <line>27</line>
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -598,6 +855,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/hateoas/spring-hateoas/0.25.1.RELEASE/spring-hateoas-0.25.1.RELEASE.jar!/org/springframework/hateoas/ResourceAssembler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -625,6 +883,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/resource/resourceassembler/IngredientResource.java" />
     <entry file="file://$PROJECT_DIR$/taco-domain/src/main/java/org/study/pcfdevcert/domain/Ingredient.java">
+=======
+    <entry file="file://$PROJECT_DIR$/taco-ui/src/app/api/ApiService.ts">
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
@@ -719,6 +980,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jms/5.1.6.RELEASE/spring-jms-5.1.6.RELEASE.jar!/org/springframework/jms/core/MessageCreator.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -727,6 +989,11 @@
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar!/javax/jms/Message.class">
+=======
+    <entry file="file://$PROJECT_DIR$/taco-api/src/main/java/pcfdevcert/sample.java" />
+    <entry file="file://$PROJECT_DIR$/taco-app/src/main/java/org/study/pcfdevcert/controller/DesignTacoControllerRest.java" />
+    <entry file="file://$PROJECT_DIR$/taco-repository/src/main/java/org/study/pcfdevcert/repository/IngredientRepository.java">
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
           <caret line="101" column="26" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
@@ -742,6 +1009,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/taco-repository/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -759,6 +1027,9 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+=======
+    <entry file="file://$PROJECT_DIR$/taco-config/pom.xml">
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
@@ -841,6 +1112,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/taco-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -859,6 +1131,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/taco-domain/src/main/java/org/study/pcfdevcert/domain/User.java">
+=======
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
@@ -903,7 +1178,18 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/taco-app/src/main/resources/application.yml">
+=======
+    <entry file="file://$PROJECT_DIR$/taco-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/resource/resourceassembler/IngredientResource.java">
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
@@ -934,14 +1220,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/taco-messaging/src/main/java/org/study/pcfdevcert/kafka/OrderMessageProducerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="352">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+=======
+        <state relative-caret-position="314">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/api/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -953,6 +1245,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/taco-messaging/src/main/java/org/study/pcfdevcert/jms/OrderMessageReceive.java">
+=======
+    <entry file="file://$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/resourceassembler/IngredientResourceAssembler.java">
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
@@ -963,6 +1258,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/taco-app/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-132">
@@ -974,6 +1270,115 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="36" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="36" />
+=======
+    <entry file="file://$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/resource/TacoResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taco-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/api/DesignTacoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1832#1833#0" expanded="true" />
+            <element signature="e#1864#1865#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taco-domain/src/main/java/org/study/pcfdevcert/domain/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/api/IngredientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+          </folding>
+>>>>>>> 9ec91b72a486a67dc608fc2050d88e26e178f761
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taco-app/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taco-app/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taco-test/src/test/java/OrderControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taco-api/src/main/java/org/study/pcfdevcert/api/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/core/ParameterizedTypeReference.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taco-domain/src/main/java/org/study/pcfdevcert/domain/Taco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taco-test/src/test/java/DesignControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
