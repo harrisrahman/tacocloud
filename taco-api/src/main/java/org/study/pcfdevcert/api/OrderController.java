@@ -5,6 +5,7 @@ import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.study.pcfdevcert.domain.Order;
+import org.study.pcfdevcert.kafka.OrderMessageProducerServiceImpl;
 import org.study.pcfdevcert.repository.OrderRepository;
 
 @RestController
@@ -13,15 +14,18 @@ import org.study.pcfdevcert.repository.OrderRepository;
 public class OrderController {
 
     private OrderRepository orderRepository;
+    private OrderMessageProducerServiceImpl orderMessageProducerService;
 
     @Autowired
-    public OrderController(OrderRepository orderRepository) {
+    public OrderController(OrderRepository orderRepository,OrderMessageProducerServiceImpl orderMessageProducerService) {
         this.orderRepository = orderRepository;
+        this.orderMessageProducerService = orderMessageProducerService;
     }
 
     @PostMapping(consumes = "application/json")
     @ResponseStatus(HttpStatus.CREATED)
     public Order saveOrder(@RequestBody Order order) {
+        orderMessageProducerService.sendOrder(order);
         return orderRepository.save(order);
     }
 

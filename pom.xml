@@ -14,6 +14,7 @@
         <module>taco-repository</module>
         <module>taco-services</module>
         <module>taco-api</module>
+        <module>taco-messaging</module>
     </modules>
 
 
@@ -36,7 +37,4 @@
         <version>2.1.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-
-
-
 </project>

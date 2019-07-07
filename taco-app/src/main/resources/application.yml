@@ -1,0 +1,21 @@
+spring:
+  artemis:
+    mode: none
+    host: artemis.tacocloud.com
+    port: 61617
+    user: tacoweb
+    password: password
+  jms:
+    template:
+      default-destination: tacocloud.order.queue
+  profiles: prod
+  rabbitmq:
+    host:
+    username:
+    password:
+    port:
+  kafka:
+    bootstrap-servers:
+      - localhost:9092
+    template:
+      default-topic: tacocloud.orders.topic

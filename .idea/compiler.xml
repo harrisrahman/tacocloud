@@ -7,16 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="taco-services" />
-        <module name="taco-app" />
-        <module name="taco-repository" />
         <module name="taco-api" />
-        <module name="taco-domain" />
+        <module name="taco-app" />
         <module name="taco-config" />
+        <module name="taco-domain" />
+        <module name="taco-messaging" />
+        <module name="taco-repository" />
+        <module name="taco-services" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="taco-rest" target="1.8" />
       <module name="taco-ui" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -26,6 +26,7 @@
       <module name="taco-app" options="-parameters" />
       <module name="taco-config" options="-parameters" />
       <module name="taco-domain" options="-parameters" />
+      <module name="taco-messaging" options="-parameters" />
       <module name="taco-repository" options="-parameters" />
       <module name="taco-rest" options="-parameters" />
       <module name="taco-services" options="-parameters" />
