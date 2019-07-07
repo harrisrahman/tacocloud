@@ -15,9 +15,10 @@ public class OrderMessageConsumer {
     Logger log = LogManager.getLogger(OrderMessageConsumer.class);
 
     @KafkaListener(topics = {"tacocloud.orders.topic"},groupId = "tacoclient")
-    public void kafkaConsumer(Order order, ConsumerRecord<String,Order> consumerRecord){
+//    public void kafkaConsumer(Order order){
+      public void kafkaConsumer(ConsumerRecord<?,?> order){
         log.info("***** Message Received ****");
-        log.info(consumerRecord.timestamp() + "<< === >>" + consumerRecord.key());
+//        log.info(consumerRecord.timestamp() + "<< === >>" + consumerRecord.key());
         log.info(order.toString());
     }
 }

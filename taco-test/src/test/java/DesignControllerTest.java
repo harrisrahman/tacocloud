@@ -1,4 +1,3 @@
-import jdk.nashorn.internal.runtime.regexp.joni.constants.Traverse;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

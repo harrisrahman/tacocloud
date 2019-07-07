@@ -29,7 +29,7 @@ constructor(private httpClient: HttpClient, private router: Router, private cart
 
   // tag::ngOnInit[]
   ngOnInit() {
-    this.httpClient.get('http://localhost:8080/design/ingredients')
+    this.httpClient.get('http://localhost:8080/ingredients')
         .subscribe(data => {
           this.allIngredients = data;
           this.wraps = this.allIngredients.filter(w => w.type === 'WRAP');
